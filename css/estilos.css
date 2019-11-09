@@ -1,0 +1,59 @@
+
+body {background: pink;}
+
+.bg-blanco {background: white;}
+
+
+
+/*h2{text-align: center;}*/
+
+header img {width: 200px;}
+
+#historia small {color: tomato;}
+
+#historia mark {background: yellow;}
+
+#discos table{cursor: crosshair;}
+#discos table th {background: violet;}
+
+#discos .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#discos .jugando p:nth-of-type(even){
+    color: red;
+}
+
+
+#discos .jugando p:nth-of-type(3){
+    color: rgb(45, 130, 158);
+}
+
+
+#discos .jugando p:first-child{
+   background: lightgreen;
+}
+
+#discos .jugando p:last-child{
+    background: blue; color: white;
+}
+
+
+#discos .form-control{
+    border-radius: 0;
+transition: all  0.3s;}
+
+#discos input:focus{
+    background: violet;
+    color: teal;
+    border-radius: 1rem;
+}
+
+/*#discos input {type=email}:focus{
+    background: violet;
+    color: teal;
+    border-radius: 1rem;}*/
+
+
+
+footer{height: 200px;}
